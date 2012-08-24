@@ -3,7 +3,9 @@
     <string name="app_name">HiG-Assignment-1</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
+    <string name="title_splash">Splash</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="tmp">themineralpatch.com</string>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
 
