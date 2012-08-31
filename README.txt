@@ -1,1 +1,3 @@
-THIS IS A README OH MY GOD
+=================================================
+= First assignment in mobile programming course =
+=================================================
