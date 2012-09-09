@@ -12,6 +12,14 @@
     <string name="imageHIG">Image from HIG website</string>
     <string name="dataAccess">Data access and retrieval</string>
     <string name="myLoc">My location (launches Maps)</string>
+    <string name="sDataHeaderText">Sending Data</string>
+    <string name="sDataMainText">Type something to send to logging.php:</string>
+    <string name="sDataHintMessage">Type message here</string>
+    <string name="sendButton">Send</string>
+    <string name="rDataHeaderText">Recieving Data</string>
+    <string name="rDataMainText">Press the button to recieve data</string>
+    <string name="recieveButton">Recieve!</string>
+    <string name="imgHIGHeaderText">Image from website</string>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
 

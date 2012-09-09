@@ -14,7 +14,7 @@
 	    <item name="android:textSize">20dp</item>
 	    <item name="android:textColor">#000000</item>
 	    <item name="android:drawableRight">@drawable/arrow_button</item>
-	    <item name="android:background">@android:color/transparent</item>
+	    <item name="android:background">#E2E2E2</item>
 	</style>
 	
     <style name="headerText">
@@ -22,6 +22,14 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">#000000</item>
         <item name="android:textSize">30dp</item>
+    </style>
+    
+ 	<style name="regularText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15dp</item>
     </style>
     
  	<style name="subHeaderText">

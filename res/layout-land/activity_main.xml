@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<RelativeLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#E2E2E2"
+	    android:paddingLeft="15dp"
+	    android:paddingRight="15dp"
+	    android:paddingTop="15dp" >
+	    
+		<TextView
+		    style="@style/headerText"
+		    android:id="@+id/welcome"
+	        android:text="@string/main_text01"
+	        />
+		
+		<Button 
+		    android:id="@+id/infoBtn"
+		    android:layout_width="25dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"
+		    android:layout_toRightOf="@+id/welcome"
+		    android:background="@drawable/info"
+		    android:layout_marginLeft="450dp"
+		    />
+		
+		<View
+		    style="@style/divider"
+		    android:id="@+id/div1"
+		    android:layout_below="@+id/welcome"
+		    />
+		
+		<Button
+		    style="@style/CustomButton"
+		    android:id="@+id/sData"
+		    android:text="@string/sendData"
+		    android:layout_below="@+id/div1"
+		 	/>
+		
+		<Button
+		    style="@style/CustomButton"
+		    android:id="@+id/rData"
+		    android:text="@string/retrieveData"
+		    android:layout_below="@+id/sData"
+		 	/>
+		
+		<Button
+		    style="@style/CustomButton"
+		    android:id="@+id/imgHIG"
+		    android:text="@string/imageHIG"
+		    android:layout_below="@+id/rData"
+		 	/>
+	
+		<TextView
+		    style="@style/subHeaderText"
+		    android:id="@+id/additional"
+			android:text="@string/additional"
+			android:layout_below="@+id/imgHIG"
+		    />
+		
+		<View
+		    style="@style/divider"
+		    android:id="@+id/div2"
+		    android:layout_below="@+id/additional"
+		    />
+		
+		<Button
+		    style="@style/CustomButton"
+		    android:id="@+id/dataAcc"
+		    android:text="@string/dataAccess"
+		    android:layout_below="@+id/div2"
+		 	/>
+		
+		<Button
+		    style="@style/CustomButton"
+		    android:id="@+id/location"
+		    android:text="@string/myLoc"
+		    android:layout_below="@+id/dataAcc"
+		 	/>
+	</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E2E2E2"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp" >
+    
+    <TextView 
+        style="@style/headerText"
+        android:id="@+id/rDataHeader"
+        android:text="@string/rDataHeaderText"
+        />
+    
+    <View
+        style="@style/divider"
+        android:id="@+id/rDataDiv"
+        android:layout_below="@+id/rDataHeader"
+        />
+    
+    <TextView 
+        style="@style/regularText"
+        android:id="@+id/rDataText"
+        android:text="@string/rDataMainText"
+        android:layout_below="@id/rDataDiv"
+        />
+    
+    <Button 
+        android:id="@+id/rDataButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/rDataText"
+        android:layout_marginTop="15dp"
+        android:text="@string/recieveButton"
+        />
+    
+</RelativeLayout>
