@@ -17,8 +17,10 @@
     <string name="sDataHintMessage">Type message here</string>
     <string name="sendButton">Send</string>
     <string name="rDataHeaderText">Recieving Data</string>
-    <string name="rDataMainText">Press the button to recieve data</string>
-    <string name="recieveButton">Recieve!</string>
+    <string name="rDataMainText">Press the button to pull an image from the web</string>
+    <string name="recieveImageButton">Pull image</string>
+    <string name="rDataAudioText">Press the button to pull audio from the web</string>
+    <string name="recieveAudioButton">Pull audio</string>
     <string name="imgHIGHeaderText">Image from website</string>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>

@@ -29,12 +29,28 @@
         />
     
     <Button 
-        android:id="@+id/rDataButton"
+        android:id="@+id/rImageButton"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_below="@id/rDataText"
         android:layout_marginTop="15dp"
-        android:text="@string/recieveButton"
+        android:text="@string/recieveImageButton"
+        />
+    
+    <TextView 
+        style="@style/regularText"
+        android:id="@+id/rDataText2"
+        android:text="@string/rDataAudioText"
+        android:layout_below="@id/rImageButton"
+        />
+    
+    <Button 
+        android:id="@+id/rAudioButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/rDataText2"
+        android:layout_marginTop="15dp"
+        android:text="@string/recieveAudioButton"
         />
     
 </RelativeLayout>
