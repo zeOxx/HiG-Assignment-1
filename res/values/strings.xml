@@ -3,7 +3,7 @@
     <string name="app_name">HiG-Assignment-1</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_splash">Splash</string>
+    <string name="title_splash">Mobile Assignment 1, 101024</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="main_text01">Welcome!</string>
     <string name="additional">Additional functionality</string>
@@ -14,11 +14,13 @@
     <string name="myLoc">My location (launches Maps)</string>
     <string name="sDataHeaderText">Sending Data</string>
     <string name="sDataMainText">Type something to send to logging.php:</string>
-    <string name="sDataHintMessage">Type message here</string>
+    <string name="sDataUserHintMessage">Username</string>
+    <string name="sDataTextHintMessage">Message</string>
     <string name="sendButton">Send</string>
+    <string name="infoDialogText">Made by: Inge Dalby, 101024</string>
     <string name="rDataHeaderText">Recieving Data</string>
-    <string name="rDataMainText">Press the button to pull an image from the web</string>
-    <string name="recieveImageButton">Pull image</string>
+    <string name="rDataMainText">Press the button to pull text from the web</string>
+    <string name="recieveImageButton">Pull text</string>
     <string name="rDataAudioText">Press the button to pull audio from the web</string>
     <string name="recieveAudioButton">Pull audio</string>
     <string name="imgHIGHeaderText">Image from website</string>
