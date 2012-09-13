@@ -23,25 +23,9 @@
     
     <TextView 
         style="@style/regularText"
-        android:id="@+id/rDataText"
-        android:text="@string/rDataMainText"
-        android:layout_below="@id/rDataDiv"
-        />
-    
-    <Button 
-        android:id="@+id/rImageButton"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:layout_below="@id/rDataText"
-        android:layout_marginTop="15dp"
-        android:text="@string/recieveImageButton"
-        />
-    
-    <TextView 
-        style="@style/regularText"
         android:id="@+id/rDataText2"
         android:text="@string/rDataAudioText"
-        android:layout_below="@id/rImageButton"
+        android:layout_below="@id/rDataDiv"
         />
     
     <Button 
@@ -51,6 +35,28 @@
         android:layout_below="@id/rDataText2"
         android:layout_marginTop="15dp"
         android:text="@string/recieveAudioButton"
+        />
+    
+    <TextView 
+        style="@style/regularText"
+        android:id="@+id/rDataText"
+        android:text="@string/rDataMainText"
+        android:layout_below="@id/rAudioButton"
+        />
+    
+    <Button 
+        android:id="@+id/rDataButton"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/rDataText"
+        android:layout_marginTop="15dp"
+        android:text="@string/recieveImageButton"
+        />
+    
+    <TextView 
+        style="@style/regularText"
+        android:id="@+id/rDataTextDisplay"
+        android:layout_below="@id/rDataButton"
         />
     
 </RelativeLayout>

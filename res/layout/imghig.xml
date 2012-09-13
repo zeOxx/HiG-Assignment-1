@@ -21,13 +21,20 @@
         android:layout_below="@+id/imgHIGHeader"
         />
     
+    <TextView
+        style="@style/regularText"
+        android:id="@+id/imgURLinfo"
+        android:text="@string/imgInfoText"
+        android:layout_below="@id/imgHIGDiv"
+        />
+    
     <ImageView 
         android:id="@+id/imgHIGimage"
-        android:layout_below="@id/imgHIGDiv"
+        android:layout_below="@id/imgURLinfo"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
+        android:layout_margin="10dp"
         android:adjustViewBounds="true"
         android:gravity="center"
         />
-    
 </RelativeLayout>

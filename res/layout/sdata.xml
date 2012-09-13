@@ -30,17 +30,8 @@
     
 	<EditText 
 	    style="@style/sDataEdit"
-	    android:id="@+id/sDataUserMessage"
-	    android:layout_below="@id/sDataText"
-	    android:layout_alignParentLeft="true"
-	    android:maxLength="25"
-	    android:hint="@string/sDataUserHintMessage"
-	    />
-	
-	<EditText 
-	    style="@style/sDataEdit"
 	    android:id="@+id/sDataTextMessage"
-	    android:layout_below="@id/sDataUserMessage"
+	    android:layout_below="@id/sDataText"
 	    android:layout_alignParentLeft="true"
 	    android:maxLength="50"
 	    android:hint="@string/sDataTextHintMessage"
@@ -53,7 +44,7 @@
 	    android:layout_below="@id/sDataTextMessage"
 	    android:layout_width="70dp"
 	    android:layout_height="wrap_content"
+        android:onClick="send"
 	    />
-    
     
 </RelativeLayout>

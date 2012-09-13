@@ -24,6 +24,7 @@
     <string name="rDataAudioText">Press the button to pull audio from the web</string>
     <string name="recieveAudioButton">Pull audio</string>
     <string name="imgHIGHeaderText">Image from website</string>
+    <string name="imgInfoText">Getting image from web (location is http://themineralpatch.net/img/avatar_sc2.jpg)</string>
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
 
