@@ -99,7 +99,8 @@ public class sDataActivity extends Activity {
 		@Override
 		protected String doInBackground(Void... params) {
 			try {
-				String textMessage = editMessage.getText().toString();
+				String textMessageTemp = editMessage.getText().toString();
+				String textMessage = textMessageTemp.replaceAll(" ", "%20");
 				HttpClient client = new DefaultHttpClient();
 				String getURL = "http://gtl.hig.no/mobile/logging.php?user="
 						+ username + "&data=" + textMessage;

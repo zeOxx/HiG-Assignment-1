@@ -1,62 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#E2E2E2"
-    android:paddingLeft="15dp"
-    android:paddingRight="15dp"
-    android:paddingTop="15dp" >
-    
-    <TextView 
-        style="@style/headerText"
+    android:padding="15dp" >
+
+    <TextView
         android:id="@+id/rDataHeader"
-        android:text="@string/rDataHeaderText"
-        />
-    
+        style="@style/headerText"
+        android:text="@string/rDataHeaderText" />
+
     <View
-        style="@style/divider"
         android:id="@+id/rDataDiv"
-        android:layout_below="@+id/rDataHeader"
-        />
-    
-    <TextView 
-        style="@style/regularText"
+        style="@style/divider"
+        android:layout_below="@+id/rDataHeader" />
+
+    <TextView
         android:id="@+id/rDataText2"
-        android:text="@string/rDataAudioText"
+        style="@style/regularText"
         android:layout_below="@id/rDataDiv"
-        />
-    
-    <Button 
+        android:text="@string/rDataAudioText" />
+
+    <Button
         android:id="@+id/rAudioButton"
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/rDataText2"
         android:layout_marginTop="15dp"
-        android:text="@string/recieveAudioButton"
-        />
-    
-    <TextView 
-        style="@style/regularText"
+        android:text="@string/recieveAudioButton" />
+
+    <TextView
         android:id="@+id/rDataText"
-        android:text="@string/rDataMainText"
+        style="@style/regularText"
         android:layout_below="@id/rAudioButton"
-        />
-    
-    <Button 
+        android:text="@string/rDataMainText" />
+
+    <Button
         android:id="@+id/rDataButton"
-        android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@id/rDataText"
         android:layout_marginTop="15dp"
-        android:text="@string/recieveImageButton"
-        />
-    
-    <TextView 
-        style="@style/regularText"
+        android:text="@string/recieveImageButton" />
+
+    <TextView
         android:id="@+id/rDataTextDisplay"
-        android:layout_below="@id/rDataButton"
-        />
-    
+        style="@style/regularText"
+        android:layout_below="@id/rDataButton" />
+
 </RelativeLayout>
