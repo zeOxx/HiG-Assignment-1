@@ -40,7 +40,6 @@ public class sDataActivity extends Activity {
 		username = "Inge";
 		// Makes the button object
 		sDataButton = (Button) findViewById(R.id.sDataButton);
-
 	}
 
 	public void send(View v) {
@@ -59,7 +58,6 @@ public class sDataActivity extends Activity {
     		if (textMessage.length() > 0) {
     			new SendMessageToWeb().execute();
     		} else {
-    			
     			// Display message if textbox is empty
     			Toast.makeText(getApplicationContext(), "Field cannot be empty", Toast.LENGTH_SHORT).show();
     		}
@@ -112,7 +110,6 @@ public class sDataActivity extends Activity {
 			Toast.makeText(getApplicationContext(), "Loading..", Toast.LENGTH_SHORT).show();
 		}
 		
-		@Override
 		protected void onPostExectute(String result) {
 			editMessage.setText("");
 			Toast.makeText(getApplicationContext(), "Message sent!", Toast.LENGTH_SHORT).show();
