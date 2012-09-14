@@ -57,26 +57,4 @@
         style="@style/buttonDiv"
         android:layout_below="@id/imgHIG" />
 
-    <Button
-        android:id="@+id/dataAcc"
-        style="@style/CustomButton"
-        android:layout_below="@id/btnDiv3"
-        android:text="@string/dataAccess" />
-
-    <View
-        android:id="@+id/btnDiv4"
-        style="@style/buttonDiv"
-        android:layout_below="@id/dataAcc" />
-
-    <Button
-        android:id="@+id/location"
-        style="@style/CustomButton"
-        android:layout_below="@id/dataAcc"
-        android:text="@string/myLoc" />
-
-    <View
-        android:id="@+id/btnDiv5"
-        style="@style/buttonDiv"
-        android:layout_below="@id/location" />
-
 </RelativeLayout>

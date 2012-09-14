@@ -15,6 +15,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 import android.app.Activity;
 
 public class rDataActivity extends Activity {
@@ -22,6 +23,7 @@ public class rDataActivity extends Activity {
 	// Setting URL strings
 	String audioUrl = "http://www.themineralpatch.net/files/Terran_ScannerSweep.m4a";
 	String textUrl = "http://www.themineralpatch.net/test/ass1.txt";
+	String saveString;
 
 	// Defining the TextView object that displays the downloaded text
 	TextView textview;
@@ -99,6 +101,8 @@ public class rDataActivity extends Activity {
 		protected void onPostExecute(String result) {
 			textview = (TextView) findViewById(R.id.rDataTextDisplay);
 			textview.setText(result);
+			saveString = result;
+
 		}
 	}
 
