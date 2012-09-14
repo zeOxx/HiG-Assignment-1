@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">HiG-Assignment-1</string>
+    <string name="title_splash">Mobile Assignment 1, 101024</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="main_text01">Velkommen!</string>
+    <string name="additional">Ekstra funksjonalitet</string>
+    <string name="sendData">Send data</string>
+    <string name="retrieveData">Hente data</string>
+    <string name="imageHIG">Bilde fra web</string>
+    <string name="dataAccess">Data tilgang og henting</string>
+    <string name="myLoc">Min posisjon</string>
+    <string name="sDataHeaderText">Sender Data</string>
+    <string name="sDataMainText">Skriv noe her for å sende det til logging.php:</string>
+    <string name="sDataTextHintMessage">Beskjed</string>
+    <string name="sendButton">Send</string>
+    <string name="infoDialogText">Lagd av: Inge Dalby, 101024</string>
+    <string name="rDataHeaderText">Henter Data</string>
+    <string name="rDataMainText">Trykk på knappen for å hente tekst lagret på web</string>
+    <string name="recieveImageButton">Hent tekst</string>
+    <string name="rDataAudioText">Trykk på knappen for å hente en lydfil lagret på web</string>
+    <string name="recieveAudioButton">Hent lyd</string>
+    <string name="imgHIGHeaderText">Bilde fra web</string>
+    <string name="imgInfoText">Henter bilde fra web (plasser på http://themineralpatch.net/img/avatar_sc2.jpg)</string>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

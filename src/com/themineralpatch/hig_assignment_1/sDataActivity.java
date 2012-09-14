@@ -108,7 +108,7 @@ public class sDataActivity extends Activity {
 
 				if (res != null) {
 					Toast.makeText(getApplicationContext(),
-							"Something is wrong...", Toast.LENGTH_LONG).show();
+							"Something is wrong...", Toast.LENGTH_SHORT).show();
 				}
 
 			} catch (Exception e) {
