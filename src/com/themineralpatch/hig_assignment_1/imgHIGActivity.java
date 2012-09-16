@@ -13,6 +13,7 @@ import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class imgHIGActivity extends Activity {
 
@@ -31,6 +32,9 @@ public class imgHIGActivity extends Activity {
 		if (networkInfo != null && networkInfo.isConnected()) {
 			imageView = (ImageView) findViewById(R.id.imgHIGimage);
 			new DownloadImage().execute(imgURL);
+		} else {
+			Toast.makeText(getApplicationContext(),
+					"Internet connection required", Toast.LENGTH_SHORT).show();
 		}
 	}
 
@@ -41,6 +45,8 @@ public class imgHIGActivity extends Activity {
 
 		protected void onPostExecute(Bitmap result) {
 			imageView.setImageBitmap(result);
+			Toast.makeText(getApplicationContext(),
+					"Image Loaded!", Toast.LENGTH_SHORT).show();
 		}
 	}
 

@@ -56,5 +56,5 @@
         android:id="@+id/btnDiv3"
         style="@style/buttonDiv"
         android:layout_below="@id/imgHIG" />
-
+    
 </RelativeLayout>

@@ -28,30 +28,35 @@ public final class R {
         public static final int btnDiv1=0x7f070004;
         public static final int btnDiv2=0x7f070006;
         public static final int btnDiv3=0x7f070008;
+        public static final int btnDiv4=0x7f07000a;
         public static final int div1=0x7f070002;
         public static final int imgHIG=0x7f070007;
-        public static final int imgHIGDiv=0x7f07000a;
-        public static final int imgHIGHeader=0x7f070009;
-        public static final int imgHIGimage=0x7f07000c;
-        public static final int imgURLinfo=0x7f07000b;
+        public static final int imgHIGDiv=0x7f07000c;
+        public static final int imgHIGHeader=0x7f07000b;
+        public static final int imgHIGimage=0x7f07000e;
+        public static final int imgURLinfo=0x7f07000d;
         public static final int infoBtn=0x7f070001;
-        public static final int infoDialogButton=0x7f07000f;
-        public static final int infoDialogText=0x7f07000e;
-        public static final int layout_root=0x7f07000d;
-        public static final int rAudioButton=0x7f070013;
+        public static final int infoDialogButton=0x7f070011;
+        public static final int infoDialogText=0x7f070010;
+        public static final int layout_root=0x7f07000f;
+        public static final int rAudioButton=0x7f070015;
         public static final int rData=0x7f070005;
-        public static final int rDataButton=0x7f070015;
-        public static final int rDataDiv=0x7f070011;
-        public static final int rDataHeader=0x7f070010;
-        public static final int rDataText=0x7f070014;
-        public static final int rDataText2=0x7f070012;
-        public static final int rDataTextDisplay=0x7f070016;
+        public static final int rDataButton=0x7f070017;
+        public static final int rDataDiv=0x7f070013;
+        public static final int rDataHeader=0x7f070012;
+        public static final int rDataText=0x7f070016;
+        public static final int rDataText2=0x7f070014;
+        public static final int rDataTextDisplay=0x7f070018;
+        public static final int readTXTDiv=0x7f07001a;
+        public static final int readTXTHeader=0x7f070019;
+        public static final int readTXTdisplayFile=0x7f07001b;
         public static final int sData=0x7f070003;
-        public static final int sDataButton=0x7f07001b;
-        public static final int sDataDiv=0x7f070018;
-        public static final int sDataHeader=0x7f070017;
-        public static final int sDataText=0x7f070019;
-        public static final int sDataTextMessage=0x7f07001a;
+        public static final int sDataButton=0x7f070020;
+        public static final int sDataDiv=0x7f07001d;
+        public static final int sDataHeader=0x7f07001c;
+        public static final int sDataText=0x7f07001e;
+        public static final int sDataTextMessage=0x7f07001f;
+        public static final int txtDisplay=0x7f070009;
         public static final int welcome=0x7f070000;
     }
     public static final class layout {
@@ -59,24 +64,25 @@ public final class R {
         public static final int imghig=0x7f030001;
         public static final int info_dialog=0x7f030002;
         public static final int rdata=0x7f030003;
-        public static final int sdata=0x7f030004;
-        public static final int splashscreen=0x7f030005;
+        public static final int readtxt=0x7f030004;
+        public static final int sdata=0x7f030005;
+        public static final int splashscreen=0x7f030006;
     }
     public static final class string {
         public static final int additional=0x7f040004;
         public static final int app_name=0x7f040000;
         public static final int dataAccess=0x7f040008;
         public static final int imageHIG=0x7f040007;
-        public static final int imgHIGHeaderText=0x7f040014;
-        public static final int imgInfoText=0x7f040015;
+        public static final int imgHIGHeaderText=0x7f040015;
+        public static final int imgInfoText=0x7f040016;
         public static final int infoDialogText=0x7f04000e;
         public static final int main_text01=0x7f040003;
         public static final int myLoc=0x7f040009;
-        public static final int rDataAudioText=0x7f040012;
-        public static final int rDataHeaderText=0x7f04000f;
-        public static final int rDataMainText=0x7f040010;
-        public static final int recieveAudioButton=0x7f040013;
-        public static final int recieveImageButton=0x7f040011;
+        public static final int rDataAudioText=0x7f040013;
+        public static final int rDataHeaderText=0x7f040010;
+        public static final int rDataMainText=0x7f040011;
+        public static final int recieveAudioButton=0x7f040014;
+        public static final int recieveImageButton=0x7f040012;
         public static final int retrieveData=0x7f040006;
         public static final int sDataHeaderText=0x7f04000a;
         public static final int sDataMainText=0x7f04000b;
@@ -85,6 +91,7 @@ public final class R {
         public static final int sendData=0x7f040005;
         public static final int title_activity_main=0x7f040002;
         public static final int title_splash=0x7f040001;
+        public static final int txtHeaderText=0x7f04000f;
     }
     public static final class style {
         public static final int AppTheme=0x7f060000;

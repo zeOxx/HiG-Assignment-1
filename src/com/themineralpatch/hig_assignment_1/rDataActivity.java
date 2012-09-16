@@ -1,5 +1,6 @@
 package com.themineralpatch.hig_assignment_1;
 
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -17,12 +18,14 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.app.Activity;
+import android.content.Context;
 
 public class rDataActivity extends Activity {
 
 	// Setting URL strings
 	String audioUrl = "http://www.themineralpatch.net/files/Terran_ScannerSweep.m4a";
 	String textUrl = "http://www.themineralpatch.net/test/ass1.txt";
+	String file = "ass1.txt";
 	String saveString;
 
 	// Defining the TextView object that displays the downloaded text
@@ -102,7 +105,6 @@ public class rDataActivity extends Activity {
 			textview = (TextView) findViewById(R.id.rDataTextDisplay);
 			textview.setText(result);
 			saveString = result;
-
 		}
 	}
 
@@ -155,4 +157,19 @@ public class rDataActivity extends Activity {
 		mediaPlayer.stop();
 		finish();
 	}
+	
+    @Override
+    public void onStop() {
+    	super.onStop();
+    	
+    	try {
+    		
+    		FileOutputStream fos = openFileOutput(file,Context.MODE_PRIVATE);
+    		fos.write(saveString.getBytes());
+    		fos.close();
+    		Toast.makeText(getApplicationContext(), "Text file stored", Toast.LENGTH_LONG).show();
+    	} catch (Exception e) {
+    		System.out.println("ERROR:::::::::::::"+e);
+    	}
+    }
 }
